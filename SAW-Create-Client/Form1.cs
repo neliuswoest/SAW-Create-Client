@@ -15,5 +15,16 @@ namespace SAW_Create_Client
         {
             InitializeComponent();
         }
+
+        private void settingToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void databaseSetupToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DatabaseSetup frm_dbSetup = new DatabaseSetup();
+            frm_dbSetup.ShowDialog(); // Shows Form2
+        }
     }
 }
