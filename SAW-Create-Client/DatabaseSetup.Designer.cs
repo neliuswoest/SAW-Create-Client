@@ -59,9 +59,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(307, 345);
+            this.button1.Location = new System.Drawing.Point(193, 329);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(189, 23);
             this.button1.TabIndex = 1;
             this.button1.Text = "Save Settings";
             this.button1.UseVisualStyleBackColor = true;
@@ -217,7 +217,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(426, 385);
+            this.ClientSize = new System.Drawing.Size(426, 365);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label7);
@@ -238,7 +238,7 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox2);
             this.Name = "DatabaseSetup";
-            this.Text = "text";
+            this.Text = "Allocate Database";
             this.Load += new System.EventHandler(this.DatabaseSetup_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
