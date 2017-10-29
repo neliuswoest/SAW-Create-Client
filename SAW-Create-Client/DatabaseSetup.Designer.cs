@@ -70,24 +70,25 @@
             // Com_Server_Name
             // 
             this.Com_Server_Name.FormattingEnabled = true;
+            this.Com_Server_Name.ItemHeight = 13;
             this.Com_Server_Name.Location = new System.Drawing.Point(139, 206);
             this.Com_Server_Name.Name = "Com_Server_Name";
             this.Com_Server_Name.Size = new System.Drawing.Size(243, 21);
-            this.Com_Server_Name.TabIndex = 2;
+            this.Com_Server_Name.TabIndex = 4;
             // 
             // Evo_Server_User_Name
             // 
             this.Evo_Server_User_Name.Location = new System.Drawing.Point(139, 75);
             this.Evo_Server_User_Name.Name = "Evo_Server_User_Name";
             this.Evo_Server_User_Name.Size = new System.Drawing.Size(243, 20);
-            this.Evo_Server_User_Name.TabIndex = 3;
+            this.Evo_Server_User_Name.TabIndex = 1;
             // 
             // Evo_Server_Password
             // 
             this.Evo_Server_Password.Location = new System.Drawing.Point(139, 101);
             this.Evo_Server_Password.Name = "Evo_Server_Password";
             this.Evo_Server_Password.Size = new System.Drawing.Size(243, 20);
-            this.Evo_Server_Password.TabIndex = 4;
+            this.Evo_Server_Password.TabIndex = 2;
             this.Evo_Server_Password.Leave += new System.EventHandler(this.Evo_Server_Password_Leave);
             // 
             // Com_Server_User_Name
@@ -108,10 +109,11 @@
             // Evo_Company_Databases
             // 
             this.Evo_Company_Databases.FormattingEnabled = true;
+            this.Evo_Company_Databases.ItemHeight = 13;
             this.Evo_Company_Databases.Location = new System.Drawing.Point(139, 127);
             this.Evo_Company_Databases.Name = "Evo_Company_Databases";
             this.Evo_Company_Databases.Size = new System.Drawing.Size(243, 21);
-            this.Evo_Company_Databases.TabIndex = 7;
+            this.Evo_Company_Databases.TabIndex = 3;
             // 
             // Common_Databases
             // 
@@ -119,7 +121,7 @@
             this.Common_Databases.Location = new System.Drawing.Point(139, 285);
             this.Common_Databases.Name = "Common_Databases";
             this.Common_Databases.Size = new System.Drawing.Size(243, 21);
-            this.Common_Databases.TabIndex = 8;
+            this.Common_Databases.TabIndex = 7;
             // 
             // label1
             // 
