@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Configuration;
 
 namespace SAW_Create_Client
 {
@@ -20,6 +21,20 @@ namespace SAW_Create_Client
 
         private void button1_Click(object sender, EventArgs e)
         {
+            Configuration config = ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None);
+            config.AppSettings.Settings["EvolutionServerName"].Value = Evo_Server_Name.Text.ToString();
+            config.AppSettings.Settings["EvolutionDatabase"].Value = Evo_Company_Databases.Text.ToString();
+            config.AppSettings.Settings["EvolutionUserName"].Value = Evo_Server_User_Name.Text.ToString();
+            config.AppSettings.Settings["EvolutionPassword"].Value = Evo_Server_Password.Text.ToString();
+
+            config.AppSettings.Settings["CommonServerName"].Value = Com_Server_Name.Text.ToString();
+            config.AppSettings.Settings["CommonDatabase"].Value = Common_Databases.Text.ToString();
+            config.AppSettings.Settings["CommonUserName"].Value = Com_Server_User_Name.Text.ToString();
+            config.AppSettings.Settings["CommonPassword"].Value = Com_Server_Password.Text.ToString();
+
+            config.Save(ConfigurationSaveMode.Modified);
+            ConfigurationManager.RefreshSection("appSettings");
+            this.Close();
 
         }
 
@@ -131,4 +146,12 @@ namespace SAW_Create_Client
         }
     }
 }
+
+
+
+
+
+
+
+
 
