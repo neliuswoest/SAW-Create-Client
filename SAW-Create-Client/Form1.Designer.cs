@@ -37,8 +37,43 @@
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txt_Customer_Name = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txt_LandLine = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txt_Cell_Phone = new System.Windows.Forms.Label();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txt_Email = new System.Windows.Forms.Label();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txt_Tax_Number = new System.Windows.Forms.Label();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.combo_Default_Tax_Code = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
+            this.txt1 = new System.Windows.Forms.TextBox();
+            this.txt2 = new System.Windows.Forms.TextBox();
+            this.txt3 = new System.Windows.Forms.TextBox();
+            this.txt4 = new System.Windows.Forms.TextBox();
+            this.txt5 = new System.Windows.Forms.TextBox();
+            this.txt6 = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.txt7 = new System.Windows.Forms.TextBox();
+            this.txt12 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txt11 = new System.Windows.Forms.TextBox();
+            this.txt8 = new System.Windows.Forms.TextBox();
+            this.txt10 = new System.Windows.Forms.TextBox();
+            this.txt9 = new System.Windows.Forms.TextBox();
+            this.button4 = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.button1 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
+            this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -48,7 +83,7 @@
             this.helpToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(714, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(809, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -111,29 +146,341 @@
             this.aboutToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
             this.aboutToolStripMenuItem.Text = "&About";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(13, 47);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(82, 13);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Customer name";
+            // 
+            // txt_Customer_Name
+            // 
+            this.txt_Customer_Name.Location = new System.Drawing.Point(139, 44);
+            this.txt_Customer_Name.Name = "txt_Customer_Name";
+            this.txt_Customer_Name.Size = new System.Drawing.Size(193, 21);
+            this.txt_Customer_Name.TabIndex = 3;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(139, 94);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(193, 21);
+            this.textBox2.TabIndex = 5;
+            // 
+            // txt_LandLine
+            // 
+            this.txt_LandLine.AutoSize = true;
+            this.txt_LandLine.Location = new System.Drawing.Point(13, 97);
+            this.txt_LandLine.Name = "txt_LandLine";
+            this.txt_LandLine.Size = new System.Drawing.Size(52, 13);
+            this.txt_LandLine.TabIndex = 4;
+            this.txt_LandLine.Text = "Land Line";
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(139, 117);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(193, 21);
+            this.textBox3.TabIndex = 7;
+            // 
+            // txt_Cell_Phone
+            // 
+            this.txt_Cell_Phone.AutoSize = true;
+            this.txt_Cell_Phone.Location = new System.Drawing.Point(13, 120);
+            this.txt_Cell_Phone.Name = "txt_Cell_Phone";
+            this.txt_Cell_Phone.Size = new System.Drawing.Size(57, 13);
+            this.txt_Cell_Phone.TabIndex = 6;
+            this.txt_Cell_Phone.Text = "Cell Phone";
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(139, 140);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(193, 21);
+            this.textBox4.TabIndex = 9;
+            // 
+            // txt_Email
+            // 
+            this.txt_Email.AutoSize = true;
+            this.txt_Email.Location = new System.Drawing.Point(13, 143);
+            this.txt_Email.Name = "txt_Email";
+            this.txt_Email.Size = new System.Drawing.Size(31, 13);
+            this.txt_Email.TabIndex = 8;
+            this.txt_Email.Text = "Email";
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(139, 163);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(193, 21);
+            this.textBox5.TabIndex = 11;
+            // 
+            // txt_Tax_Number
+            // 
+            this.txt_Tax_Number.AutoSize = true;
+            this.txt_Tax_Number.Location = new System.Drawing.Point(13, 166);
+            this.txt_Tax_Number.Name = "txt_Tax_Number";
+            this.txt_Tax_Number.Size = new System.Drawing.Size(65, 13);
+            this.txt_Tax_Number.TabIndex = 10;
+            this.txt_Tax_Number.Text = "Tax Number";
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Checked = true;
+            this.checkBox1.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBox1.Location = new System.Drawing.Point(139, 71);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(99, 17);
+            this.checkBox1.TabIndex = 12;
+            this.checkBox1.Text = "Cash Customer";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "1"});
+            this.comboBox1.Location = new System.Drawing.Point(139, 186);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(193, 21);
+            this.comboBox1.TabIndex = 13;
+            // 
+            // combo_Default_Tax_Code
+            // 
+            this.combo_Default_Tax_Code.AutoSize = true;
+            this.combo_Default_Tax_Code.Location = new System.Drawing.Point(12, 189);
+            this.combo_Default_Tax_Code.Name = "combo_Default_Tax_Code";
+            this.combo_Default_Tax_Code.Size = new System.Drawing.Size(91, 13);
+            this.combo_Default_Tax_Code.TabIndex = 14;
+            this.combo_Default_Tax_Code.Text = "Default Tax Code";
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(354, 71);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(127, 23);
+            this.button3.TabIndex = 16;
+            this.button3.Text = "Clear Screen";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // txt1
+            // 
+            this.txt1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txt1.Location = new System.Drawing.Point(15, 23);
+            this.txt1.Name = "txt1";
+            this.txt1.Size = new System.Drawing.Size(193, 14);
+            this.txt1.TabIndex = 17;
+            // 
+            // txt2
+            // 
+            this.txt2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txt2.Location = new System.Drawing.Point(15, 37);
+            this.txt2.Name = "txt2";
+            this.txt2.Size = new System.Drawing.Size(193, 14);
+            this.txt2.TabIndex = 18;
+            // 
+            // txt3
+            // 
+            this.txt3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txt3.Location = new System.Drawing.Point(15, 51);
+            this.txt3.Name = "txt3";
+            this.txt3.Size = new System.Drawing.Size(193, 14);
+            this.txt3.TabIndex = 19;
+            // 
+            // txt4
+            // 
+            this.txt4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txt4.Location = new System.Drawing.Point(15, 65);
+            this.txt4.Name = "txt4";
+            this.txt4.Size = new System.Drawing.Size(193, 14);
+            this.txt4.TabIndex = 20;
+            this.txt4.TextChanged += new System.EventHandler(this.textBox8_TextChanged);
+            // 
+            // txt5
+            // 
+            this.txt5.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txt5.Location = new System.Drawing.Point(15, 79);
+            this.txt5.Name = "txt5";
+            this.txt5.Size = new System.Drawing.Size(193, 14);
+            this.txt5.TabIndex = 21;
+            // 
+            // txt6
+            // 
+            this.txt6.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txt6.Location = new System.Drawing.Point(127, 93);
+            this.txt6.Name = "txt6";
+            this.txt6.Size = new System.Drawing.Size(81, 14);
+            this.txt6.TabIndex = 22;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(66, 94);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(64, 13);
+            this.label2.TabIndex = 23;
+            this.label2.Text = "Postal Code";
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.txt1);
+            this.groupBox1.Controls.Add(this.txt6);
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.txt5);
+            this.groupBox1.Controls.Add(this.txt2);
+            this.groupBox1.Controls.Add(this.txt4);
+            this.groupBox1.Controls.Add(this.txt3);
+            this.groupBox1.Location = new System.Drawing.Point(354, 100);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(218, 118);
+            this.groupBox1.TabIndex = 24;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Physical Address";
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.txt7);
+            this.groupBox2.Controls.Add(this.txt12);
+            this.groupBox2.Controls.Add(this.label3);
+            this.groupBox2.Controls.Add(this.txt11);
+            this.groupBox2.Controls.Add(this.txt8);
+            this.groupBox2.Controls.Add(this.txt10);
+            this.groupBox2.Controls.Add(this.txt9);
+            this.groupBox2.Location = new System.Drawing.Point(578, 100);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(218, 118);
+            this.groupBox2.TabIndex = 25;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Postal Address";
+            // 
+            // txt7
+            // 
+            this.txt7.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txt7.Location = new System.Drawing.Point(15, 23);
+            this.txt7.Name = "txt7";
+            this.txt7.Size = new System.Drawing.Size(193, 14);
+            this.txt7.TabIndex = 17;
+            // 
+            // txt12
+            // 
+            this.txt12.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txt12.Location = new System.Drawing.Point(127, 93);
+            this.txt12.Name = "txt12";
+            this.txt12.Size = new System.Drawing.Size(81, 14);
+            this.txt12.TabIndex = 22;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(66, 94);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(64, 13);
+            this.label3.TabIndex = 23;
+            this.label3.Text = "Postal Code";
+            // 
+            // txt11
+            // 
+            this.txt11.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txt11.Location = new System.Drawing.Point(15, 79);
+            this.txt11.Name = "txt11";
+            this.txt11.Size = new System.Drawing.Size(193, 14);
+            this.txt11.TabIndex = 21;
+            // 
+            // txt8
+            // 
+            this.txt8.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txt8.Location = new System.Drawing.Point(15, 37);
+            this.txt8.Name = "txt8";
+            this.txt8.Size = new System.Drawing.Size(193, 14);
+            this.txt8.TabIndex = 18;
+            // 
+            // txt10
+            // 
+            this.txt10.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txt10.Location = new System.Drawing.Point(15, 65);
+            this.txt10.Name = "txt10";
+            this.txt10.Size = new System.Drawing.Size(193, 14);
+            this.txt10.TabIndex = 20;
+            // 
+            // txt9
+            // 
+            this.txt9.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txt9.Location = new System.Drawing.Point(15, 51);
+            this.txt9.Name = "txt9";
+            this.txt9.Size = new System.Drawing.Size(193, 14);
+            this.txt9.TabIndex = 19;
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(354, 42);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(127, 23);
+            this.button4.TabIndex = 26;
+            this.button4.Text = "Save Client";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(13, 248);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(783, 247);
+            this.dataGridView1.TabIndex = 27;
+            // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(325, 54);
+            this.button1.Location = new System.Drawing.Point(13, 219);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "button1";
+            this.button1.TabIndex = 28;
+            this.button1.Text = "Refresh Grid";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(714, 507);
+            this.ClientSize = new System.Drawing.Size(809, 507);
             this.Controls.Add(this.button1);
+            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.combo_Default_Tax_Code);
+            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.txt_Tax_Number);
+            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.txt_Email);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.txt_Cell_Phone);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txt_LandLine);
+            this.Controls.Add(this.txt_Customer_Name);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "AboutIT - Stock Creator";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -150,6 +497,38 @@
         private System.Windows.Forms.ToolStripMenuItem registrationToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox txt_Customer_Name;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label txt_LandLine;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Label txt_Cell_Phone;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.Label txt_Email;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.Label txt_Tax_Number;
+        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Label combo_Default_Tax_Code;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.TextBox txt1;
+        private System.Windows.Forms.TextBox txt2;
+        private System.Windows.Forms.TextBox txt3;
+        private System.Windows.Forms.TextBox txt4;
+        private System.Windows.Forms.TextBox txt5;
+        private System.Windows.Forms.TextBox txt6;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.TextBox txt7;
+        private System.Windows.Forms.TextBox txt12;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox txt11;
+        private System.Windows.Forms.TextBox txt8;
+        private System.Windows.Forms.TextBox txt10;
+        private System.Windows.Forms.TextBox txt9;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button button1;
     }
 }
