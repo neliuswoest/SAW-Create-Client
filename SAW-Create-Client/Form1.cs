@@ -37,9 +37,18 @@ namespace SAW_Create_Client
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            try
+            { 
             DataTable dt1 = new DataTable();
             dt1 = EvoDAC.ReturnDatatable("SELECT Account, Name, Contact_Person, Telephone, Telephone2, Fax1, Fax2, Email FROM[Client]");
             dataGridView1.DataSource = dt1;
+            }
+            catch
+            {
+                MessageBox.Show("Setup Data Connection First","Error",MessageBoxButtons.OK,MessageBoxIcon.Error);
+                DatabaseSetup frm_dbSetup = new DatabaseSetup();
+                frm_dbSetup.ShowDialog(); // Shows Form2
+            }
 
         }
 
