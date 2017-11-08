@@ -161,5 +161,15 @@ namespace SAW_Create_Client
             dt1 = EvoDAC.ReturnDatatable("SELECT Account, Name, Contact_Person, Telephone, Telephone2, Fax1, Fax2, Email FROM[Client]");
             dataGridView1.DataSource = dt1;
         }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            (dataGridView1.DataSource as DataTable).DefaultView.RowFilter = string.Format("Name LIKE '%{0}%'", textBox1.Text);
+        }
     }
 }
