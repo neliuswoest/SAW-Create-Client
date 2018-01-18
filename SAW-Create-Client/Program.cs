@@ -1,10 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using System.Windows.Forms;
-using DevExpress.UserSkins;
-using DevExpress.Skins;
-using DevExpress.LookAndFeel;
 
 namespace SAW_Create_Client
 {
@@ -18,11 +16,11 @@ namespace SAW_Create_Client
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-
-            BonusSkins.Register();
-            SkinManager.EnableFormSkins();
-            UserLookAndFeel.Default.SetSkinStyle("DevExpress Style");
+            //Application.Run(new Form1(Form1));
+            //Application.Run(new Form1());
             Application.Run(new Form1());
+
+
         }
     }
 }

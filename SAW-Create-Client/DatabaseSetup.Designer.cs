@@ -56,6 +56,7 @@
             this.Evo_Server_Name.Name = "Evo_Server_Name";
             this.Evo_Server_Name.Size = new System.Drawing.Size(243, 21);
             this.Evo_Server_Name.TabIndex = 0;
+            this.Evo_Server_Name.SelectedIndexChanged += new System.EventHandler(this.Evo_Server_Name_SelectedIndexChanged);
             // 
             // button1
             // 

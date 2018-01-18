@@ -105,9 +105,8 @@
             this.toolStripSeparator1,
             this.registrationToolStripMenuItem});
             this.settingToolStripMenuItem.Name = "settingToolStripMenuItem";
-            this.settingToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
+            this.settingToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.settingToolStripMenuItem.Text = "&Settings";
-            this.settingToolStripMenuItem.Click += new System.EventHandler(this.settingToolStripMenuItem_Click);
             // 
             // databaseSetupToolStripMenuItem
             // 
@@ -132,7 +131,6 @@
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
             this.exitToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
             this.exitToolStripMenuItem.Text = "E&xit";
-            this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
             // helpToolStripMenuItem
             // 
@@ -153,7 +151,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(13, 47);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(82, 13);
+            this.label1.Size = new System.Drawing.Size(80, 13);
             this.label1.TabIndex = 2;
             this.label1.Text = "Customer name";
             // 
@@ -161,14 +159,14 @@
             // 
             this.txt_Customer_Name.Location = new System.Drawing.Point(139, 44);
             this.txt_Customer_Name.Name = "txt_Customer_Name";
-            this.txt_Customer_Name.Size = new System.Drawing.Size(193, 21);
+            this.txt_Customer_Name.Size = new System.Drawing.Size(193, 20);
             this.txt_Customer_Name.TabIndex = 3;
             // 
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(139, 94);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(193, 21);
+            this.textBox2.Size = new System.Drawing.Size(193, 20);
             this.textBox2.TabIndex = 5;
             // 
             // txt_LandLine
@@ -176,7 +174,7 @@
             this.txt_LandLine.AutoSize = true;
             this.txt_LandLine.Location = new System.Drawing.Point(13, 97);
             this.txt_LandLine.Name = "txt_LandLine";
-            this.txt_LandLine.Size = new System.Drawing.Size(52, 13);
+            this.txt_LandLine.Size = new System.Drawing.Size(54, 13);
             this.txt_LandLine.TabIndex = 4;
             this.txt_LandLine.Text = "Land Line";
             // 
@@ -184,7 +182,7 @@
             // 
             this.textBox3.Location = new System.Drawing.Point(139, 117);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(193, 21);
+            this.textBox3.Size = new System.Drawing.Size(193, 20);
             this.textBox3.TabIndex = 7;
             // 
             // txt_Cell_Phone
@@ -192,7 +190,7 @@
             this.txt_Cell_Phone.AutoSize = true;
             this.txt_Cell_Phone.Location = new System.Drawing.Point(13, 120);
             this.txt_Cell_Phone.Name = "txt_Cell_Phone";
-            this.txt_Cell_Phone.Size = new System.Drawing.Size(57, 13);
+            this.txt_Cell_Phone.Size = new System.Drawing.Size(58, 13);
             this.txt_Cell_Phone.TabIndex = 6;
             this.txt_Cell_Phone.Text = "Cell Phone";
             // 
@@ -200,7 +198,7 @@
             // 
             this.textBox4.Location = new System.Drawing.Point(139, 140);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(193, 21);
+            this.textBox4.Size = new System.Drawing.Size(193, 20);
             this.textBox4.TabIndex = 9;
             // 
             // txt_Email
@@ -208,7 +206,7 @@
             this.txt_Email.AutoSize = true;
             this.txt_Email.Location = new System.Drawing.Point(13, 143);
             this.txt_Email.Name = "txt_Email";
-            this.txt_Email.Size = new System.Drawing.Size(31, 13);
+            this.txt_Email.Size = new System.Drawing.Size(32, 13);
             this.txt_Email.TabIndex = 8;
             this.txt_Email.Text = "Email";
             // 
@@ -216,7 +214,7 @@
             // 
             this.textBox5.Location = new System.Drawing.Point(139, 163);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(193, 21);
+            this.textBox5.Size = new System.Drawing.Size(193, 20);
             this.textBox5.TabIndex = 11;
             // 
             // txt_Tax_Number
@@ -235,7 +233,7 @@
             this.checkBox1.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBox1.Location = new System.Drawing.Point(139, 71);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(99, 17);
+            this.checkBox1.Size = new System.Drawing.Size(97, 17);
             this.checkBox1.TabIndex = 12;
             this.checkBox1.Text = "Cash Customer";
             this.checkBox1.UseVisualStyleBackColor = true;
@@ -255,7 +253,7 @@
             this.combo_Default_Tax_Code.AutoSize = true;
             this.combo_Default_Tax_Code.Location = new System.Drawing.Point(12, 189);
             this.combo_Default_Tax_Code.Name = "combo_Default_Tax_Code";
-            this.combo_Default_Tax_Code.Size = new System.Drawing.Size(91, 13);
+            this.combo_Default_Tax_Code.Size = new System.Drawing.Size(90, 13);
             this.combo_Default_Tax_Code.TabIndex = 14;
             this.combo_Default_Tax_Code.Text = "Default Tax Code";
             // 
@@ -267,14 +265,14 @@
             this.button3.TabIndex = 16;
             this.button3.Text = "Clear Screen";
             this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.button3.Click += new System.EventHandler(this.button3_Click_1);
             // 
             // txt1
             // 
             this.txt1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt1.Location = new System.Drawing.Point(15, 23);
             this.txt1.Name = "txt1";
-            this.txt1.Size = new System.Drawing.Size(193, 14);
+            this.txt1.Size = new System.Drawing.Size(193, 13);
             this.txt1.TabIndex = 17;
             // 
             // txt2
@@ -282,7 +280,7 @@
             this.txt2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt2.Location = new System.Drawing.Point(15, 37);
             this.txt2.Name = "txt2";
-            this.txt2.Size = new System.Drawing.Size(193, 14);
+            this.txt2.Size = new System.Drawing.Size(193, 13);
             this.txt2.TabIndex = 18;
             // 
             // txt3
@@ -290,7 +288,7 @@
             this.txt3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt3.Location = new System.Drawing.Point(15, 51);
             this.txt3.Name = "txt3";
-            this.txt3.Size = new System.Drawing.Size(193, 14);
+            this.txt3.Size = new System.Drawing.Size(193, 13);
             this.txt3.TabIndex = 19;
             // 
             // txt4
@@ -298,16 +296,15 @@
             this.txt4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt4.Location = new System.Drawing.Point(15, 65);
             this.txt4.Name = "txt4";
-            this.txt4.Size = new System.Drawing.Size(193, 14);
+            this.txt4.Size = new System.Drawing.Size(193, 13);
             this.txt4.TabIndex = 20;
-            this.txt4.TextChanged += new System.EventHandler(this.textBox8_TextChanged);
             // 
             // txt5
             // 
             this.txt5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt5.Location = new System.Drawing.Point(15, 79);
             this.txt5.Name = "txt5";
-            this.txt5.Size = new System.Drawing.Size(193, 14);
+            this.txt5.Size = new System.Drawing.Size(193, 13);
             this.txt5.TabIndex = 21;
             // 
             // txt6
@@ -315,7 +312,7 @@
             this.txt6.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt6.Location = new System.Drawing.Point(127, 93);
             this.txt6.Name = "txt6";
-            this.txt6.Size = new System.Drawing.Size(81, 14);
+            this.txt6.Size = new System.Drawing.Size(81, 13);
             this.txt6.TabIndex = 22;
             // 
             // label2
@@ -364,7 +361,7 @@
             this.txt7.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt7.Location = new System.Drawing.Point(15, 23);
             this.txt7.Name = "txt7";
-            this.txt7.Size = new System.Drawing.Size(193, 14);
+            this.txt7.Size = new System.Drawing.Size(193, 13);
             this.txt7.TabIndex = 17;
             // 
             // txt12
@@ -372,7 +369,7 @@
             this.txt12.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt12.Location = new System.Drawing.Point(127, 93);
             this.txt12.Name = "txt12";
-            this.txt12.Size = new System.Drawing.Size(81, 14);
+            this.txt12.Size = new System.Drawing.Size(81, 13);
             this.txt12.TabIndex = 22;
             // 
             // label3
@@ -389,7 +386,7 @@
             this.txt11.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt11.Location = new System.Drawing.Point(15, 79);
             this.txt11.Name = "txt11";
-            this.txt11.Size = new System.Drawing.Size(193, 14);
+            this.txt11.Size = new System.Drawing.Size(193, 13);
             this.txt11.TabIndex = 21;
             // 
             // txt8
@@ -397,7 +394,7 @@
             this.txt8.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt8.Location = new System.Drawing.Point(15, 37);
             this.txt8.Name = "txt8";
-            this.txt8.Size = new System.Drawing.Size(193, 14);
+            this.txt8.Size = new System.Drawing.Size(193, 13);
             this.txt8.TabIndex = 18;
             // 
             // txt10
@@ -405,7 +402,7 @@
             this.txt10.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt10.Location = new System.Drawing.Point(15, 65);
             this.txt10.Name = "txt10";
-            this.txt10.Size = new System.Drawing.Size(193, 14);
+            this.txt10.Size = new System.Drawing.Size(193, 13);
             this.txt10.TabIndex = 20;
             // 
             // txt9
@@ -413,7 +410,7 @@
             this.txt9.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt9.Location = new System.Drawing.Point(15, 51);
             this.txt9.Name = "txt9";
-            this.txt9.Size = new System.Drawing.Size(193, 14);
+            this.txt9.Size = new System.Drawing.Size(193, 13);
             this.txt9.TabIndex = 19;
             // 
             // button4
@@ -424,7 +421,7 @@
             this.button4.TabIndex = 26;
             this.button4.Text = "Save Client";
             this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.button4.Click += new System.EventHandler(this.button4_Click_1);
             // 
             // dataGridView1
             // 
@@ -436,6 +433,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(783, 225);
             this.dataGridView1.TabIndex = 27;
+            this.dataGridView1.CellPainting += new System.Windows.Forms.DataGridViewCellPaintingEventHandler(this.dataGridView1_CellPainting);
             // 
             // button1
             // 
@@ -445,24 +443,24 @@
             this.button1.TabIndex = 28;
             this.button1.Text = "Refresh Grid";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            this.button1.Click += new System.EventHandler(this.button1_Click_2);
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(125, 243);
+            this.textBox1.Location = new System.Drawing.Point(98, 243);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(237, 21);
+            this.textBox1.Size = new System.Drawing.Size(264, 20);
             this.textBox1.TabIndex = 29;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged_1);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(13, 246);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(110, 13);
+            this.label4.Size = new System.Drawing.Size(79, 13);
             this.label4.TabIndex = 30;
-            this.label4.Text = "Search account name";
+            this.label4.Text = "Search for text:";
             // 
             // Form1
             // 
@@ -555,4 +553,6 @@
         private System.Windows.Forms.Label label4;
     }
 }
+
+
 
