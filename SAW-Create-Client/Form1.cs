@@ -261,6 +261,7 @@ namespace SAW_Create_Client
                 String Code = C.Code;
                 C.Telephone = textBox2.Text.ToString();
                 C.EmailAddress = textBox4.Text.ToString();
+                C.CellPhone = textBox3.Text.ToString();
                 C.TaxNumber = textBox5.Text.ToString();
                 C.DefaultTaxRate = (new TaxRate("1"));
 
@@ -271,8 +272,8 @@ namespace SAW_Create_Client
                     C.AgeingMethod = ((AccountAgeingMethod)1);
                 }
                 //Set Postal or physical address
-                C.PostalAddress = new Address(txt1.Text, txt2.Text, txt3.Text, txt4.Text, txt5.Text, txt6.Text);
-                C.PhysicalAddress = new Address()
+                C.PhysicalAddress = new Address(txt1.Text, txt2.Text, txt3.Text, txt4.Text, txt5.Text, txt6.Text);
+                C.PostalAddress = new Address()
                 {
                     Line1 = txt7.Text,
                     Line2 = txt8.Text,
@@ -283,8 +284,7 @@ namespace SAW_Create_Client
                 };
                 C.Save();
                 MessageBox.Show("Client saved to Database. New Account Number is: " + Code.ToString() + ".", "Success");
-
-
+                
                 txt_Customer_Name.Clear();
                 textBox2.Clear();
                 textBox3.Clear();
